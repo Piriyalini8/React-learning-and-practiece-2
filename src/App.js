@@ -1,12 +1,18 @@
 import './App.css';
+import FragmentDemo from './components/FragmentDemo';
 import LifeCycleA from './components/LifeCycleA';
+import Table from './components/Table';
 
 function App() {
   return (
-    <div>
+    <>
       {/* Component Mounting Life Cycle Methods */}
-      <LifeCycleA/>
-    </div>
+      {/* <LifeCycleA/> */}
+
+      {/* Fragements */}
+      <FragmentDemo/>
+      <Table/>
+    </>
   );
 }
 
